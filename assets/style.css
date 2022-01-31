@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.all{
+    background-image:url(imgnba/logo1.jpg) ;
+    background-size: cover;
+    background-repeat: repeat-x;
+    font-family: 'Black Ops One', cursive;
+    padding: 50px;
+}
+.header{
+    height: 50px;
+}
+
+header{
+    font-weight: bold;
+    height: 700px;
+    margin: auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    line-height: 100px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    height: 100px;
+    text-align: center;
+    text-shadow: 1px 1px 25px rgba(255, 255, 255, 0.2);
+}
+.slide{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex: 1;
+    overflow: hidden;
+    height: 500px;
+    padding-bottom: 60px;
+}
+.slide_controls{
+    position: absolute;
+    z-index: 10px;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.control{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0px 20px;
+    background-color: rgba(255, 255, 255, 0.424);
+}
+.control:hover{
+    box-shadow: 1px 1px 50px #fff;
+    transition: 0.1s;
+}
+.slide_move{
+    transition: ease-in-out 1s;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.slide_move_imagem{
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1100px;
+    height: 500px;
+    width: 1000px;
+}
+
+.pe{
+    background-color: #000;
+    padding: 20px;
+    color: #000;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.pe:hover {
+    transition: .3s;
+    color: #fff;
+}
